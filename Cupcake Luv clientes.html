@@ -1,0 +1,75 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake Co.</title>
+</head>
+<body>
+
+    <h1>Elija y pida su Pastel en pasteleria Cupcake Luv.</h1>
+
+   
+
+    <hr>
+    <h2>Ingrese sus datos:</h2>
+
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+
+    <label for="correo1">Ingresa tu correo Correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="tel1">Ingresa tu Teléfono</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+
+    <form action="/accion.js" id="form1" method="post">
+        <label for="describe">Describe tu pastel</label>
+        <input type="text" id="describe" name="describe"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+
+    
+
+    <hr>
+
+    <h2>Elige  tu sabor</h2><br>
+    <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+    <label for="sabor1">Chocolate</label><br>
+    <input type="checkbox" id="sabor2" name="sabor2" value="Vainilla">
+    <label for="sabor2">Vainilla</label><br>
+    <input type="checkbox" id="sabor3" name="sabor3" value="Fresa">
+    <label for="sabor3">Fresa</label><br><br>
+    <input type="checkbox" id="saborcombinado1" name="saborcombinado1" value="saborcombinado1">
+    <label for="saborcombinado1">fresa y chocolate</label><br><br>
+    <input type="checkbox" id="saborcombinado2" name="saborcombinado2" value="saborcombinado2">
+    <label for="saborcombinado2">chocolate y vainilla</label><br><br>
+    
+    <h2>Elige tu decoracion </h2><br>
+    <input type="radio" id="estrellas" name="decoracion" value="estrellas">
+    <label for="estrellas">estrellas</label><br>
+    <input type="radio" id="circulos" name="decoracion" value="circulos">
+    <label for="circulos">circulos</label><br>
+    <input type="radio" id="unicornios" name="decoracion" value="unicornios">
+    <label for="guacamole">unicornios</label><br><br>
+
+    <h2>Elige el precio y tamaño</h2>
+    <label for="pasteles">Precio de pasteles</label>
+    <select id="pasteles" name="pasteles">
+        <option value="grande, 500 pesos">grande, 500 pesos</option>
+        <option value="mediano, 350 pesos">mediano, 350 pesos</option>
+        <option value="chico, 200 pesos">chico, 200 pesos</option>
+    </select>
+    
+  
+</body>
+</html>
